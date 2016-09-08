@@ -12,6 +12,19 @@ namespace AgeDistribution
         {
             Console.WriteLine("Please enter your age.");
             int userAge = int.Parse(Console.ReadLine());
+
+            if (userAge >= 0 && userAge <=2)
+            {
+                Console.WriteLine("Still in Mama's arms");
+            }
+            else if (userAge == 3 || userAge == 4)
+            {
+                Console.WriteLine("Preschool Maniac");
+            }
+            else if (userAge >= 5 && userAge <= 11)
+            {
+                Console.WriteLine("Elementary school");
+            }
         }
     }
 }
