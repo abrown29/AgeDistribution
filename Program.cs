@@ -25,6 +25,18 @@ namespace AgeDistribution
             {
                 Console.WriteLine("Elementary school");
             }
+            else if (userAge >= 12 && userAge <= 14)
+            {
+                Console.WriteLine("Middle school");
+            }
+            else if (userAge >= 15 && userAge <= 18)
+            {
+                Console.WriteLine("High school");
+            }
+            else if (userAge >= 19 && userAge <= 22)
+            {
+                Console.WriteLine("College");
+            }
         }
     }
 }
