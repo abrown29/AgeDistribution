@@ -37,6 +37,18 @@ namespace AgeDistribution
             {
                 Console.WriteLine("College");
             }
+            else if (userAge >= 23 && userAge <= 65)
+            {
+                Console.WriteLine("Working for the man");
+            }
+            else if (userAge >= 66 && userAge <= 100)
+            {
+                Console.WriteLine("The Golden Years");
+            }
+            else if (userAge < 0 || userAge > 100)
+            {
+                Console.WriteLine("This program is for humans.");
+            }
         }
     }
 }
